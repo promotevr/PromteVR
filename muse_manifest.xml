@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="PromoteVR.com" resolutions="1x" timestamp="1531411242720">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="PromoteVR.com" resolutions="1x" timestamp="1533389314959">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
+    <file name="index.css" crc="4102324172" ref="index"/>
     <file name="about-us.css" crc="4001852558" ref="about-us"/>
-    <file name="index.css" crc="58994778" ref="index"/>
   </folder>
   <folder name="assets">
-    <file name="vid-20180520-wa0005.mp4" crc="447365545" seo="true" mt="1531406257000"/>
+    <file name="my-movie.mp4" crc="4114163962" seo="true" mt="1533388157000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>about-us:index:about-us"/>
@@ -25,7 +25,7 @@
   </folder>
   <folder name="images">
     <file name="a-master-favicon.ico" crc="4048318828" ref="phone>index"/>
-    <file name="hexagon-u1572.png" crc="3761117987" ref="index"/>
+    <file name="hexagon-u1572.png" crc="4266939732" ref="index"/>
     <file name="stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432 (1)-u393.png" crc="372771131" ref="index"/>
     <file name="u424-14.png" crc="4004133887" ref="index"/>
     <file name="u1477-12.png" crc="4065077982" ref="index"/>
@@ -68,6 +68,6 @@
     <file name="index.html" crc="4128250308" seo="true" mt="1519453780089" redirect="false"/>
     <file name="about-us.html" crc="527598214" seo="true" mt="1519453780219" redirect="false"/>
   </folder>
-  <file name="index.html" crc="40709965" seo="true" mt="1531411065700" redirect="true"/>
+  <file name="index.html" crc="306748222" seo="true" mt="1533389272150" redirect="true"/>
   <file name="about-us.html" crc="4062504555" seo="true" mt="1519453780373" redirect="false"/>
 </manifest>
