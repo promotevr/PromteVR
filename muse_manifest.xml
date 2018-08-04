@@ -1,7 +1,7 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="PromoteVR.com" resolutions="1x" timestamp="1533389314959">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="PromoteVR.com" resolutions="1x" timestamp="1533389977699">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4102324172" ref="index"/>
+    <file name="index.css" crc="4108777109" ref="index"/>
     <file name="about-us.css" crc="4001852558" ref="about-us"/>
   </folder>
   <folder name="assets">
@@ -68,6 +68,6 @@
     <file name="index.html" crc="4128250308" seo="true" mt="1519453780089" redirect="false"/>
     <file name="about-us.html" crc="527598214" seo="true" mt="1519453780219" redirect="false"/>
   </folder>
-  <file name="index.html" crc="306748222" seo="true" mt="1533389272150" redirect="true"/>
+  <file name="index.html" crc="3862375117" seo="true" mt="1533389939344" redirect="true"/>
   <file name="about-us.html" crc="4062504555" seo="true" mt="1519453780373" redirect="false"/>
 </manifest>
