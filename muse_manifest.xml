@@ -1,11 +1,8 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="PromoteVR.com" resolutions="1x" timestamp="1533389314959">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="PromoteVR.com" resolutions="1x" timestamp="1533922279760">
   <folder name="css">
     <file name="site_global.css" crc="444006867"/>
-    <file name="index.css" crc="4102324172" ref="index"/>
+    <file name="index.css" crc="3805369844" ref="index"/>
     <file name="about-us.css" crc="4001852558" ref="about-us"/>
-  </folder>
-  <folder name="assets">
-    <file name="my-movie.mp4" crc="4114163962" seo="true" mt="1533388157000"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="phone>index:phone>about-us:index:about-us"/>
@@ -13,34 +10,91 @@
     <file name="whatinput.js" crc="86476730" ref="phone>index:phone>about-us:index:about-us"/>
     <file name="museconfig.js" crc="4153641093" ref="phone>index:phone>about-us:index:about-us"/>
     <file name="jquery.watch.js" crc="99325471" ref="phone>index:phone>about-us:index:about-us"/>
+    <file name="webpro.js" crc="242022427" ref="phone>index:index"/>
+    <file name="musewpslideshow.js" crc="457073769" ref="phone>index:index"/>
+    <file name="jquery.museoverlay.js" crc="483674903" ref="phone>index:index"/>
+    <file name="touchswipe.js" crc="4066113679" ref="phone>index:index"/>
+    <file name="jquery.musemenu.js" crc="3784699396" ref="phone>index:index"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="phone>index:index"/>
+    <file name="form_check.php" crc="147359589" ref="phone>index"/>
+    <file name="form_throttle.php" crc="93986428" ref="phone>index"/>
+    <file name="form_process.php" crc="3851993751" ref="phone>index"/>
+    <file name="form-u7713.php" crc="287298373" ref="phone>index"/>
+    <file name="html5shiv.js" crc="4241844378" ref="phone>index:phone>about-us:index:about-us"/>
     <file name="require.js" crc="4157109226" ref="phone>index:phone>about-us:index:about-us"/>
-    <file name="jquery.musemenu.js" crc="3784699396" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index"/>
-    <file name="webpro.js" crc="242022427" ref="index"/>
-    <file name="form_check.php" crc="147359589" ref="index"/>
-    <file name="form_throttle.php" crc="93986428" ref="index"/>
-    <file name="form_process.php" crc="3851993751" ref="index"/>
     <file name="form-u2815.php" crc="456741905" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:about-us"/>
   </folder>
   <folder name="images">
     <file name="a-master-favicon.ico" crc="4048318828" ref="phone>index"/>
+    <file name="blog_blogimage_sydneyopera-crop-u8089.jpg" crc="89585461" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="city-palace-jaipur-crop-u8093.jpg" crc="20738855" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="480462594-612x612-crop-u8084.jpg" crc="151007696" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432-u7698.png" crc="3952997554" ref="phone>index"/>
+    <file name="u7695-14.png" crc="205290120" ref="phone>index"/>
+    <file name="hexagon-u7690.png" crc="423045210" ref="phone>index"/>
+    <file name="stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432 (1)-u7693.png" crc="4029550594" ref="phone>index"/>
+    <file name="u7697-12.png" crc="4065077982" ref="phone>index"/>
+    <file name="download-crop-u7745.jpg" crc="496811053" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="aaeaaqaaaaaaaaflaaaajdy2zjdkn2vhltkxmtmtngi5ni05owizlweymtg3mju5mdmzmg.jpg" crc="186817989" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="blank.gif" crc="4208392903" ref="phone>index:index"/>
+    <file name="aaeaaqaaaaaaaavaaaaajgrhzdnhnzdilwm1m2qtngrimi1hytjlltlkzddmzmi1otqyzg-crop-u7772.jpg" crc="3879058688" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="aaeaaqaaaaaaaalwaaaajdy5zjq3ogu4ltfjzmqtnde2ms1izty4ltu2zjbjztgymje3mg-crop-u7708.jpg" crc="314400416" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="amit2-crop-u7739.png" crc="121696288" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="amit2.png" crc="148937574" seo="true" ref="phone>index:index">
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="screenshot (9)-crop-u7754.jpg" crc="113742664" seo="true" ref="phone>index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="u7733-4.png" crc="432322444" ref="phone>index"/>
+    <file name="u7727.png" crc="4288901960" ref="phone>index"/>
+    <file name="u7727-ferr.png" crc="412568551" ref="phone>index"/>
+    <file name="u7722.png" crc="4171095946" ref="phone>index"/>
+    <file name="u7722-ferr.png" crc="430770331" ref="phone>index"/>
+    <file name="u7718.png" crc="332761803" ref="phone>index"/>
+    <file name="u7718-ferr.png" crc="3932567377" ref="phone>index"/>
+    <file name="hawa-mahal-5-crop-u8298.jpg" crc="230119783" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="metamathemagical-by-jonathan-zawada-courtesy-of-sydney-opera-house-1-1050x450-crop-u8302.jpg" crc="4284704290" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="city-palace-jaipur-crop-u8293.jpg" crc="3888555812" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
     <file name="hexagon-u1572.png" crc="4266939732" ref="index"/>
     <file name="stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432 (1)-u393.png" crc="372771131" ref="index"/>
-    <file name="u424-14.png" crc="4004133887" ref="index"/>
-    <file name="u1477-12.png" crc="4065077982" ref="index"/>
-    <file name="stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432-u1489.png" crc="4268112131" ref="index"/>
-    <file name="download-crop-u5470.jpg" crc="496811053" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="aaeaaqaaaaaaaaflaaaajdy2zjdkn2vhltkxmtmtngi5ni05owizlweymtg3mju5mdmzmg.jpg" crc="186817989" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="blank.gif" crc="4208392903" ref="index"/>
+    <file name="stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432-u1489.png" crc="178934092" ref="index"/>
     <file name="aaeaaqaaaaaaaavaaaaajgrhzdnhnzdilwm1m2qtngrimi1hytjlltlkzddmzmi1otqyzg-crop-u2674.jpg" crc="3879058688" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="amit2.png" crc="148937574" seo="true" ref="index">
+    <file name="download-crop-u5470.jpg" crc="496811053" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="amit2-crop-u5325.png" crc="121696288" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="aaeaaqaaaaaaaalwaaaajdy5zjq3ogu4ltfjzmqtnde2ms1izty4ltu2zjbjztgymje3mg-crop-u2690.jpg" crc="314400416" seo="true" ref="index">
+      <caption webpage="index" alt=""/>
+    </file>
+    <file name="screenshot (9)-crop-u5972.jpg" crc="113742664" seo="true" ref="index">
       <caption webpage="index" alt=""/>
     </file>
     <file name="u3150-4.png" crc="432322444" ref="index"/>
@@ -50,24 +104,15 @@
     <file name="u2817-ferr.png" crc="430770331" ref="index"/>
     <file name="u2825.png" crc="332761803" ref="index"/>
     <file name="u2825-ferr.png" crc="3932567377" ref="index"/>
-    <file name="aaeaaqaaaaaaaalwaaaajdy5zjq3ogu4ltfjzmqtnde2ms1izty4ltu2zjbjztgymje3mg-crop-u2690.jpg" crc="314400416" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="amit2-crop-u5325.png" crc="121696288" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
-    <file name="screenshot (9)-crop-u5972.jpg" crc="113742664" seo="true" ref="index">
-      <caption webpage="index" alt=""/>
-    </file>
   </folder>
   <folder name="phone">
     <folder name="css">
-      <file name="index.css" crc="103477559" ref="phone>index"/>
       <file name="about-us.css" crc="3960721939" ref="phone>about-us"/>
+      <file name="index.css" crc="277083873" ref="phone>index"/>
     </folder>
-    <file name="index.html" crc="4128250308" seo="true" mt="1519453780089" redirect="false"/>
-    <file name="about-us.html" crc="527598214" seo="true" mt="1519453780219" redirect="false"/>
+    <file name="index.html" crc="12666245" seo="true" mt="1533917588233" redirect="true"/>
+    <file name="about-us.html" crc="191835044" seo="true" mt="1519453780219" redirect="false"/>
   </folder>
-  <file name="index.html" crc="306748222" seo="true" mt="1533389272150" redirect="true"/>
+  <file name="index.html" crc="3825524455" seo="true" mt="1533922216801" redirect="true"/>
   <file name="about-us.html" crc="4062504555" seo="true" mt="1519453780373" redirect="false"/>
 </manifest>

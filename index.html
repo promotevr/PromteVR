@@ -7,46 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
   <script type="text/javascript">
-   // Update the 'nojs'/'js' class on the html node
+   // Redirect to phone/tablet as necessary
+(function(a,b,c){var d=function(){if(navigator.maxTouchPoints>1)return!0;if(window.matchMedia&&window.matchMedia("(-moz-touch-enabled)").matches)return!0;for(var a=["Webkit","Moz","O","ms","Khtml"],b=0,c=a.length;b<c;b++){var f=a[b]+"MaxTouchPoints";if(f in navigator&&navigator[f])return!0}try{return document.createEvent("TouchEvent"),!0}catch(d){}return!1}(),g=function(a){a+="=";for(var b=document.cookie.split(";"),c=0;c<b.length;c++){for(var f=b[c];f.charAt(0)==" ";)f=f.substring(1,f.length);if(f.indexOf(a)==
+0)return f.substring(a.length,f.length)}return null};if(g("inbrowserediting")!="true"){var f,g=g("devicelock");g=="phone"&&c?f=c:g=="tablet"&&b&&(f=b);if(g!=a&&!f)if(window.matchMedia)window.matchMedia("(max-device-width: 415px)").matches&&c?f=c:window.matchMedia("(max-device-width: 960px)").matches&&b&&d&&(f=b);else{var a=Math.min(screen.width,screen.height)/(window.devicePixelRatio||1),g=window.screen.systemXDPI||0,i=window.screen.systemYDPI||0,g=g>0&&i>0?Math.min(screen.width/g,screen.height/i):
+0;(a<=370||g!=0&&g<=3)&&c?f=c:a<=960&&b&&d&&(f=b)}if(f)document.location=f+(document.location.search||"")+(document.location.hash||""),document.write('<style type="text/css">body {visibility:hidden}</style>')}})("desktop","","phone/index.html");
+
+// Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "webpro.js", "index.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "require.js", "index.css"], "outOfDate":[]};
 </script>
   
+  <link media="only screen and (max-width: 370px)" rel="alternate" href="http://PromoteVR.com/phone/index.html"/>
   <link rel="shortcut icon" href="images/a-master-favicon.ico?crc=4048318828"/>
   <title>Home</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=444006867"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4102324172" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=3805369844" id="pagesheet"/>
   <!-- JS includes -->
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
     <!--HTML Widget code-->
   
-<style>
-video#bgvid { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
-    background-size: cover; 
-}
-</style>
-
-<video id="bgvid" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0"> 
-<source src=" " type="video/webm"> 
-<source src="assets/my-movie.mp4" type="video/mp4"> 
-This browser does not happen to support video</video>
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
 <style>
@@ -291,12 +275,67 @@ This browser does not happen to support video</video>
  <body>
 
   <div class="rounded-corners clearfix borderbox" id="page"><!-- group -->
-   <div class="clearfix grpelem" id="pu7033"><!-- group -->
-    <div class="browser_width grpelem" id="u7033-bw">
-     <div id="u7033"><!-- simple frame --></div>
+   <div class="clearfix grpelem" id="ppamphletu8283"><!-- group -->
+    <div class="PamphletWidget clearfix allow_click_through grpelem" id="pamphletu8283" data-visibility="changed" style="visibility:hidden"><!-- none box -->
+     <div class="popup_anchor allow_click_through grpelem" data-col-pos="1" id="u8291popup">
+      <div class="ContainerGroup clearfix" data-col-pos="1" id="u8291"><!-- stack box -->
+       <div class="Container clearfix grpelem" data-col-pos="0" id="u8296"><!-- group -->
+        <div class="clip_frame grpelem" id="u8298"><!-- image -->
+         <img class="block" id="u8298_img" src="images/hawa-mahal-5-crop-u8298.jpg?crc=230119783" alt="" data-heightwidthratio="0.6448922863099374" data-image-width="1439" data-image-height="928"/>
+        </div>
+        <div class="transition clearfix grpelem" id="u8500-11" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9998,M12=0.0175,M21=-0.0175,M22=0.9998,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-3" data-mu-ie-matrix-dy="-8"><!-- content -->
+         <p><span id="u8500">V</span>irtual <span id="u8500-3">Re</span>ality</p>
+         <p>our <span id="u8500-7">Fut</span>ure</p>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" data-col-pos="1" id="u8300"><!-- group -->
+        <div class="clip_frame grpelem" id="u8302"><!-- image -->
+         <img class="block" id="u8302_img" src="images/metamathemagical-by-jonathan-zawada-courtesy-of-sydney-opera-house-1-1050x450-crop-u8302.jpg?crc=4284704290" alt="" data-heightwidthratio="0.6451178451178451" data-image-width="1485" data-image-height="958"/>
+        </div>
+        <div class="transition clearfix grpelem" id="u8544-11" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9998,M12=0.0175,M21=-0.0175,M22=0.9998,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-3" data-mu-ie-matrix-dy="-8"><!-- content -->
+         <p><span id="u8544">V</span>irtual <span id="u8544-3">Re</span>ality</p>
+         <p>our <span id="u8544-7">Fut</span>ure</p>
+        </div>
+       </div>
+       <div class="Container invi clearfix grpelem" data-col-pos="2" id="u8292"><!-- group -->
+        <div class="clip_frame grpelem" id="u8293"><!-- image -->
+         <img class="block" id="u8293_img" src="images/city-palace-jaipur-crop-u8293.jpg?crc=3888555812" alt="" data-heightwidthratio="0.6453851492019431" data-image-width="1441" data-image-height="930"/>
+        </div>
+        <div class="transition clearfix grpelem" id="u8541-11" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" data-mu-ie-matrix="progid:DXImageTransform.Microsoft.Matrix(M11=0.9998,M12=0.0175,M21=-0.0175,M22=0.9998,SizingMethod='auto expand')" data-mu-ie-matrix-dx="-3" data-mu-ie-matrix-dy="-8"><!-- content -->
+         <p><span id="u8541">V</span>irtual <span id="u8541-3">Re</span>ality</p>
+         <p>our <span id="u8541-7">Fut</span>ure</p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="ThumbGroup clearfix grpelem" data-col-pos="0" id="u8284"><!-- none box -->
+      <div class="popup_anchor allow_click_through colelem" data-col-pos="2" id="u8285popup">
+       <div class="Thumb popup_element shadow clearfix" data-col-pos="2" id="u8285"><!-- group -->
+        <div class="clearfix grpelem" id="u8286-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>3</p>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor allow_click_through colelem" data-col-pos="0" id="u8289popup">
+       <div class="Thumb popup_element shadow clearfix" data-col-pos="0" id="u8289"><!-- group -->
+        <div class="clearfix grpelem" id="u8290-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>1</p>
+        </div>
+       </div>
+      </div>
+      <div class="popup_anchor allow_click_through colelem" data-col-pos="1" id="u8287popup">
+       <div class="Thumb popup_element clearfix" data-col-pos="1" id="u8287"><!-- group -->
+        <div class="clearfix grpelem" id="u8288-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+         <p>2</p>
+        </div>
+       </div>
+      </div>
+     </div>
     </div>
-    <a class="nonblock nontext Button ButtonSelected rounded-corners clearfix grpelem" id="buttonu6374" href="index.html" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="pu7013"><!-- group --><div class="size_fixed grpelem" id="u7013" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
-            </div><div class="clearfix grpelem" id="u6473-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p id="u6473">&nbsp;</p><p id="u6473-2">&nbsp;</p></div></div><div class="grpelem" id="u7027"><!-- simple frame --></div></a>
+    <div class="clearfix grpelem" id="u6473-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+     <p id="u6473">&nbsp;</p>
+     <p id="u6473-2">&nbsp;</p>
+    </div>
     <div class="clearfix grpelem" id="u6417-11" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
      <p id="u6417">&nbsp;</p>
      <p id="u6417-5"><span id="u6417-2">&nbsp;&nbsp;&nbsp;&nbsp; </span><span id="u6417-3">&nbsp;&nbsp; Promote</span><span id="u6417-4">VR</span></p>
@@ -335,144 +374,136 @@ This browser does not happen to support video</video>
      <a class="nonblock nontext clearfix grpelem" id="u6772-4" href="http://promotevr.blogspot.com" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Blog</p></a>
     </div>
    </div>
-   <div class="verticalspacer" data-offset-top="1575" data-content-above-spacer="1575" data-content-below-spacer="2056" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
-   <div class="clearfix grpelem" id="pu1572"><!-- group -->
-    <img class="grpelem" id="u1572" alt="" src="images/hexagon-u1572.png?crc=4266939732" data-image-width="1436"/><!-- rasterized frame -->
-    <img class="grpelem" id="u393" alt="" src="images/stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432%20(1)-u393.png?crc=372771131" data-image-width="672"/><!-- rasterized frame -->
-    <img class="grpelem" id="u424-14" alt="&nbsp;What is Virtual Reality ? Virtual Reality (VR) is the realistic simulation of an environment so realistic in fact that the viewer can believe that they truly are in another place. The image seen on a screen inside a headset moves with the viewer’s head motion, simulating the new environment. " src="images/u424-14.png?crc=4004133887" data-image-width="700"/><!-- rasterized frame -->
-    <div class="grpelem" id="u418"><!-- simple frame --></div>
-    <img class="grpelem" id="u1477-12" alt="&nbsp;Virtual Reality’s Growth Since so many companies are building new products &amp; games around Virtual Reality, its popularity has skyrocketed and is expected to have an explosive growth. In fact, current global Virtual-Reality revenues have recently hit the $7 billion mark in 2017. Currently, more than 65% of all VR revenues came from headset sales this year. Consumer content made up for around 12%, and Virtual Reality cameras made another 11.6%. " src="images/u1477-12.png?crc=4065077982" data-image-width="666"/><!-- rasterized frame -->
-    <img class="grpelem" id="u1489" alt="" src="images/stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432-u1489.png?crc=4268112131" data-image-width="706"/><!-- rasterized frame -->
-    <div class="grpelem" id="u2097"><!-- simple frame --></div>
-    <div class="browser_width grpelem" id="u2570-bw">
-     <div class="pointer_cursor MuseLinkActive gradient" id="u2570"><!-- group -->
-      <a class="block" href="index.html"><!-- Block link tag --></a>
-      <div class="clearfix" id="u2570_align_to_page">
-       <div class="grpelem" id="u7030"><!-- simple frame --></div>
-       <div class="clearfix grpelem" id="ppu2224-7"><!-- column -->
-        <div class="clearfix colelem" id="pu2224-7"><!-- group -->
-         <div class="clearfix grpelem" id="u2224-7" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-          <p id="u2224-2">&nbsp;Top AR/VR Companies In India</p>
-          <p id="u2224-3">&nbsp;</p>
-          <p id="u2224-5"><span id="u2224-4">1.Visionarch (OutsiteVR)</span></p>
-         </div>
-         <div class="Button gradient rounded-corners clearfix grpelem" id="buttonu5464" data-visibility="changed" style="visibility:hidden"><!-- container box -->
-          <div class="clearfix grpelem" id="u5465-6" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-           <p>Amit Singh</p>
-           <p>co-founder &amp; CEO</p>
-          </div>
-          <div class="shadow rounded-corners clip_frame grpelem" id="u5470"><!-- image -->
-           <img class="block" id="u5470_img" src="images/download-crop-u5470.jpg?crc=496811053" alt="" data-heightwidthratio="0.9918367346938776" data-image-width="245" data-image-height="243"/>
-          </div>
-         </div>
-         <div class="Button shadow museBGSize rounded-corners clearfix grpelem" id="buttonu2714" data-visibility="changed" style="visibility:hidden"><!-- container box -->
-          <div class="transition shadow clip_frame grpelem" id="u2674" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
-           <img class="block" id="u2674_img" src="images/aaeaaqaaaaaaaavaaaaajgrhzdnhnzdilwm1m2qtngrimi1hytjlltlkzddmzmi1otqyzg-crop-u2674.jpg?crc=3879058688" alt="" width="242" height="226"/>
-          </div>
-         </div>
-        </div>
-        <div class="clearfix colelem" id="u2584-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-         <p><span id="u2584">2. Oorja Interactive</span></p>
-        </div>
-       </div>
-       <div class="clearfix grpelem" id="pu5496"><!-- group -->
-        <div class="shadow rounded-corners clip_frame grpelem" id="u5496" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
-         <img class="block" id="u5496_img" src="images/amit2.png?crc=148937574" alt="" width="533" height="122"/>
-        </div>
-        <a class="nonblock nontext Button gradient rounded-corners shadow clearfix grpelem" id="buttonu5509" href="https://www.outsitevr.com/" target="_blank" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u5510-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Go to this site</p></div></a>
-       </div>
+   <div class="clearfix grpelem" id="u8472-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+    <p>&nbsp;</p>
+   </div>
+   <div class="verticalspacer" data-offset-top="1037" data-content-above-spacer="1037" data-content-below-spacer="1605" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+   <div class="clearfix grpelem" id="ppu1572"><!-- column -->
+    <div class="clearfix colelem" id="pu1572"><!-- group -->
+     <img class="grpelem" id="u1572" alt="" src="images/hexagon-u1572.png?crc=4266939732" data-image-width="1436"/><!-- rasterized frame -->
+     <div class="browser_width grpelem" id="u2570-bw">
+      <a class="nonblock nontext MuseLinkActive gradient" id="u2570" href="index.html"><!-- group --><div class="clearfix" id="u2570_align_to_page"><img class="grpelem" id="u393" alt="" src="images/stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432%20(1)-u393.png?crc=372771131" data-image-width="672"/><!-- rasterized frame --><div class="clearfix grpelem" id="u424-19" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p id="u424">&nbsp;</p><p id="u424-8"><span id="u424-2">W</span>hat is Vi<span id="u424-4">rt</span>ual Rea<span id="u424-6">lity</span> ?</p><p id="u424-9">&nbsp;</p><p id="u424-11">Virtual Reality (VR) is the realistic simulation of an environment</p><p id="u424-13">so realistic in fact that the viewer can believe that they truly are in another place.</p><p id="u424-15">The image seen on a screen inside a headset moves with the viewer’s head motion, simulating the new environment.</p><p id="u424-16">&nbsp;</p><p id="u424-17">&nbsp;</p></div><div class="grpelem" id="u418"><!-- simple frame --></div><div class="clearfix grpelem" id="u1477-15" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p id="u1477">&nbsp;</p><p id="u1477-8">V<span id="u1477-3">irt</span>ual Re<span id="u1477-5">alit</span>y’s Gro<span id="u1477-7">wth</span></p><p id="u1477-9">&nbsp;</p><p id="u1477-11">Since so many companies are building new products &amp; games around Virtual Reality, its popularity has skyrocketed and is expected to have an explosive growth. In fact, current global Virtual-Reality revenues have recently hit the $7 billion mark in 2017. Currently, more than 65% of all VR revenues came from headset sales this year. Consumer content made up for around 12%, and Virtual Reality cameras made another 11.6%.</p><p id="u1477-12">&nbsp;</p><p id="u1477-13">&nbsp;</p></div><img class="grpelem" id="u1489" alt="" src="images/stock-vector-enthusiastic-man-wearing-virtual-reality-headset-vector-illustration-570046432-u1489.png?crc=178934092" data-image-width="708"/><!-- rasterized frame --></div></a>
+     </div>
+    </div>
+    <div class="colelem" id="u7030"><!-- simple frame --></div>
+    <div class="clearfix colelem" id="pu5496"><!-- group -->
+     <div class="shadow rounded-corners clip_frame grpelem" id="u5496" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+      <img class="block" id="u5496_img" src="images/amit2.png?crc=148937574" alt="" width="533" height="122"/>
+     </div>
+     <a class="nonblock nontext Button gradient rounded-corners shadow clearfix grpelem" id="buttonu5509" href="https://www.outsitevr.com/" target="_blank" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u5510-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Go to this site</p></div></a>
+     <div class="Button shadow museBGSize rounded-corners clearfix grpelem" id="buttonu2714" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+      <div class="transition shadow clip_frame grpelem" id="u2674" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- image -->
+       <img class="block" id="u2674_img" src="images/aaeaaqaaaaaaaavaaaaajgrhzdnhnzdilwm1m2qtngrimi1hytjlltlkzddmzmi1otqyzg-crop-u2674.jpg?crc=3879058688" alt="" width="242" height="226"/>
+      </div>
+     </div>
+     <div class="Button gradient rounded-corners clearfix grpelem" id="buttonu5464" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+      <div class="clearfix grpelem" id="u5465-6" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <p>Amit Singh</p>
+       <p>co-founder &amp; CEO</p>
+      </div>
+      <div class="shadow rounded-corners clip_frame grpelem" id="u5470"><!-- image -->
+       <img class="block" id="u5470_img" src="images/download-crop-u5470.jpg?crc=496811053" alt="" data-heightwidthratio="0.9918367346938776" data-image-width="245" data-image-height="243"/>
       </div>
      </div>
     </div>
-    <div class="grpelem" id="u2787"><!-- simple frame --></div>
-    <div class="browser_width grpelem" id="u2791-bw">
-     <div class="gradient" id="u2791"><!-- column -->
-      <div class="clearfix" id="u2791_align_to_page">
-       <div class="rounded-corners colelem" id="u2795"><!-- simple frame --></div>
-       <div class="clearfix colelem" id="pu2799"><!-- group -->
-        <div class="rounded-corners grpelem" id="u2799"><!-- simple frame --></div>
-        <div class="clearfix grpelem" id="ppu3098-3"><!-- column -->
-         <div class="clearfix colelem" id="pu3098-3"><!-- group -->
-          <div class="clearfix grpelem" id="u3098-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-           <p>&nbsp;</p>
-          </div>
-          <img class="grpelem" id="u3150-4" alt="Your Thoughts About Virtual Reality" src="images/u3150-4.png?crc=432322444" data-image-width="575"/><!-- rasterized frame -->
-          <div class="clearfix grpelem" id="u3160-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-           <p>&nbsp;</p>
-          </div>
-         </div>
-         <div class="clearfix colelem" id="pwidgetu2815"><!-- group -->
-          <form class="form-grp clearfix grpelem" id="widgetu2815" method="post" enctype="multipart/form-data" action="scripts/form-u2815.php"><!-- none box -->
-           <div class="clearfix grpelem" id="pu2820-4"><!-- group -->
-            <div class="clearfix grpelem" id="u2820-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-             <p>Submitting Form...</p>
-            </div>
-            <div class="clearfix grpelem" id="u2826-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-             <p>The server encountered an error.</p>
-            </div>
-            <div class="clearfix grpelem" id="u2821-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-             <p>Form received.</p>
-            </div>
+    <div class="clearfix colelem" id="ppu5325"><!-- group -->
+     <div class="clearfix grpelem" id="pu5325"><!-- group -->
+      <div class="shadow rounded-corners clip_frame grpelem" id="u5325"><!-- image -->
+       <img class="block" id="u5325_img" src="images/amit2-crop-u5325.png?crc=121696288" alt="" data-heightwidthratio="0.2309090909090909" data-image-width="550" data-image-height="127"/>
+      </div>
+      <a class="nonblock nontext Button gradient rounded-corners shadow clearfix grpelem" id="buttonu5342" href="https://www.google.co.in/" target="_blank" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u5343-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Go to this site</p></div></a>
+     </div>
+     <div class="clearfix grpelem" id="u2584-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+      <p><span id="u2584">2. Oorja Interactive</span></p>
+     </div>
+     <div class="shadow rounded-corners clip_frame grpelem" id="u2690"><!-- image -->
+      <img class="block" id="u2690_img" src="images/aaeaaqaaaaaaaalwaaaajdy5zjq3ogu4ltfjzmqtnde2ms1izty4ltu2zjbjztgymje3mg-crop-u2690.jpg?crc=314400416" alt="" data-heightwidthratio="0.952" data-image-width="250" data-image-height="238"/>
+     </div>
+     <div class="Button rounded-corners clearfix grpelem" id="buttonu5966" data-visibility="changed" style="visibility:hidden"><!-- container box -->
+      <div class="clearfix grpelem" id="u5967-6" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+       <p id="u5967-2">Ravi Bhalla</p>
+       <p id="u5967-4"><span id="u5967-3">Founding Director</span></p>
+      </div>
+      <div class="shadow rounded-corners clip_frame grpelem" id="u5972"><!-- image -->
+       <img class="block" id="u5972_img" src="images/screenshot%20(9)-crop-u5972.jpg?crc=113742664" alt="" data-heightwidthratio="0.8818897637795275" data-image-width="254" data-image-height="224"/>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix colelem" id="pu2787"><!-- group -->
+     <div class="grpelem" id="u2787"><!-- simple frame --></div>
+     <div class="browser_width grpelem" id="u2791-bw">
+      <div class="gradient" id="u2791"><!-- column -->
+       <div class="clearfix" id="u2791_align_to_page">
+        <div class="rounded-corners colelem" id="u2795"><!-- simple frame --></div>
+        <div class="clearfix colelem" id="pu2799"><!-- group -->
+         <div class="rounded-corners grpelem" id="u2799"><!-- simple frame --></div>
+         <div class="clearfix grpelem" id="ppu3098-3"><!-- column -->
+          <div class="clearfix colelem" id="pu3098-3"><!-- group -->
+           <div class="clearfix grpelem" id="u3098-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+            <p>&nbsp;</p>
            </div>
-           <div class="clearfix grpelem" id="pwidgetu2828"><!-- column -->
-            <div class="fld-grp clearfix colelem" id="widgetu2828" data-required="true"><!-- none box -->
-             <label class="fld-label grpelem" id="u2831" for="widgetu2828_input"><!-- state-based BG images --><img alt="Name:" src="images/blank.gif?crc=4208392903" style="display:block"/><div class="fluid_height_spacer"></div></label>
-             <span class="fld-input NoWrap actAsDiv shadow rounded-corners clearfix grpelem" id="u2829-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u2829-3"><input class="wrapped-input" type="text" spellcheck="false" id="widgetu2828_input" name="custom_U2828" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu2828_prompt" for="widgetu2828_input"><span class="actAsPara">Enter Name</span></label></div></span>
-            </div>
-            <div class="fld-grp clearfix colelem" id="widgetu2816" data-required="true" data-type="email"><!-- none box -->
-             <label class="fld-label grpelem" id="u2817" for="widgetu2816_input"><!-- state-based BG images --><img alt="Email:" src="images/blank.gif?crc=4208392903" style="display:block"/><div class="fluid_height_spacer"></div></label>
-             <span class="fld-input NoWrap actAsDiv shadow rounded-corners clearfix grpelem" id="u2818-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u2818-3"><input class="wrapped-input" type="email" spellcheck="false" id="widgetu2816_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu2816_prompt" for="widgetu2816_input"><span class="actAsPara">Enter Email</span></label></div></span>
-            </div>
-            <div class="fld-grp clearfix colelem" id="widgetu2822" data-required="false"><!-- none box -->
-             <label class="fld-label grpelem" id="u2825" for="widgetu2822_input"><!-- state-based BG images --><img alt="Message:" src="images/blank.gif?crc=4208392903" style="display:block"/><div class="fluid_height_spacer"></div></label>
-             <span class="fld-textarea actAsDiv shadow rounded-corners clearfix grpelem" id="u2823-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u2823-3"><textarea class="wrapped-input" id="widgetu2822_input" name="custom_U2822" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu2822_prompt" for="widgetu2822_input"><span class="actAsPara">Enter Your Message</span></label></div></span>
-            </div>
-            <button class="submit-btn NoWrap rounded-corners shadow clearfix colelem" id="u2827-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" type="submit" value="Submit" tabindex="4"><!-- content -->
-             <div style="margin-top:-12px;height:12px;">
-              <p>Submit</p>
+           <img class="grpelem" id="u3150-4" alt="Your Thoughts About Virtual Reality" src="images/u3150-4.png?crc=432322444" data-image-width="575"/><!-- rasterized frame -->
+           <div class="clearfix grpelem" id="u3160-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+            <p>&nbsp;</p>
+           </div>
+          </div>
+          <div class="clearfix colelem" id="pwidgetu2815"><!-- group -->
+           <form class="form-grp clearfix grpelem" id="widgetu2815" method="post" enctype="multipart/form-data" action="scripts/form-u2815.php"><!-- none box -->
+            <div class="clearfix grpelem" id="pu2820-4"><!-- group -->
+             <div class="clearfix grpelem" id="u2820-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+              <p>Submitting Form...</p>
              </div>
-            </button>
+             <div class="clearfix grpelem" id="u2826-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+              <p>The server encountered an error.</p>
+             </div>
+             <div class="clearfix grpelem" id="u2821-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+              <p>Form received.</p>
+             </div>
+            </div>
+            <div class="clearfix grpelem" id="pwidgetu2828"><!-- column -->
+             <div class="fld-grp clearfix colelem" id="widgetu2828" data-required="true"><!-- none box -->
+              <label class="fld-label grpelem" id="u2831" for="widgetu2828_input"><!-- state-based BG images --><img alt="Name:" src="images/blank.gif?crc=4208392903" style="display:block"/><div class="fluid_height_spacer"></div></label>
+              <span class="fld-input NoWrap actAsDiv shadow rounded-corners clearfix grpelem" id="u2829-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u2829-3"><input class="wrapped-input" type="text" spellcheck="false" id="widgetu2828_input" name="custom_U2828" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu2828_prompt" for="widgetu2828_input"><span class="actAsPara">Enter Name</span></label></div></span>
+             </div>
+             <div class="fld-grp clearfix colelem" id="widgetu2816" data-required="true" data-type="email"><!-- none box -->
+              <label class="fld-label grpelem" id="u2817" for="widgetu2816_input"><!-- state-based BG images --><img alt="Email:" src="images/blank.gif?crc=4208392903" style="display:block"/><div class="fluid_height_spacer"></div></label>
+              <span class="fld-input NoWrap actAsDiv shadow rounded-corners clearfix grpelem" id="u2818-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u2818-3"><input class="wrapped-input" type="email" spellcheck="false" id="widgetu2816_input" name="Email" tabindex="2"/><label class="wrapped-input fld-prompt" id="widgetu2816_prompt" for="widgetu2816_input"><span class="actAsPara">Enter Email</span></label></div></span>
+             </div>
+             <div class="fld-grp clearfix colelem" id="widgetu2822" data-required="false"><!-- none box -->
+              <label class="fld-label grpelem" id="u2825" for="widgetu2822_input"><!-- state-based BG images --><img alt="Message:" src="images/blank.gif?crc=4208392903" style="display:block"/><div class="fluid_height_spacer"></div></label>
+              <span class="fld-textarea actAsDiv shadow rounded-corners clearfix grpelem" id="u2823-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><div id="u2823-3"><textarea class="wrapped-input" id="widgetu2822_input" name="custom_U2822" tabindex="3"></textarea><label class="wrapped-input fld-prompt" id="widgetu2822_prompt" for="widgetu2822_input"><span class="actAsPara">Enter Your Message</span></label></div></span>
+             </div>
+             <button class="submit-btn NoWrap rounded-corners shadow clearfix colelem" id="u2827-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true" type="submit" value="Submit" tabindex="4"><!-- content -->
+              <div style="margin-top:-12px;height:12px;">
+               <p>Submit</p>
+              </div>
+             </button>
+            </div>
+           </form>
+           <div class="clearfix grpelem" id="u3134-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+            <p>&nbsp;</p>
            </div>
-          </form>
-          <div class="clearfix grpelem" id="u3134-3" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-           <p>&nbsp;</p>
-          </div>
-          <div class="grpelem" id="u3191"><!-- simple frame --></div>
-          <div class="clearfix grpelem" id="u3194-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-           <p><span id="u3194">Created by Akshay Singh</span></p>
-          </div>
-          <div class="clearfix grpelem" id="u3203-10" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-           <p id="u3203-3"><span id="u3203">Promote</span>VR</p>
-           <p id="u3203-6"><span id="u3203-4">&nbsp;&nbsp;&nbsp; </span><span id="u3203-5">Virtual Reality Our</span></p>
-           <p id="u3203-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Future</p>
-          </div>
-          <div class="clearfix grpelem" id="u3206-7" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-           <p><span id="u3206">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact Us</span></p>
-           <p>&nbsp;</p>
-           <p id="u3206-5"><span id="u3206-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; promotevr2610@gmail.com</span></p>
+           <div class="grpelem" id="u3191"><!-- simple frame --></div>
+           <div class="clearfix grpelem" id="u3194-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+            <p><span id="u3194">Created by Akshay Singh</span></p>
+           </div>
+           <div class="clearfix grpelem" id="u3203-10" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+            <p id="u3203-3"><span id="u3203">Promote</span>VR</p>
+            <p id="u3203-6"><span id="u3203-4">&nbsp;&nbsp;&nbsp; </span><span id="u3203-5">Virtual Reality Our</span></p>
+            <p id="u3203-8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Future</p>
+           </div>
+           <div class="clearfix grpelem" id="u3206-7" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
+            <p><span id="u3206">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Contact Us</span></p>
+            <p>&nbsp;</p>
+            <p id="u3206-5"><span id="u3206-4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; promotevr2610@gmail.com</span></p>
+           </div>
           </div>
          </div>
+         <div class="rounded-corners grpelem" id="u2811"><!-- simple frame --></div>
         </div>
-        <div class="rounded-corners grpelem" id="u2811"><!-- simple frame --></div>
+        <div class="rounded-corners colelem" id="u2807"><!-- simple frame --></div>
        </div>
-       <div class="rounded-corners colelem" id="u2807"><!-- simple frame --></div>
       </div>
-     </div>
-    </div>
-    <div class="shadow rounded-corners clip_frame grpelem" id="u2690"><!-- image -->
-     <img class="block" id="u2690_img" src="images/aaeaaqaaaaaaaalwaaaajdy5zjq3ogu4ltfjzmqtnde2ms1izty4ltu2zjbjztgymje3mg-crop-u2690.jpg?crc=314400416" alt="" data-heightwidthratio="0.952" data-image-width="250" data-image-height="238"/>
-    </div>
-    <div class="shadow rounded-corners clip_frame grpelem" id="u5325"><!-- image -->
-     <img class="block" id="u5325_img" src="images/amit2-crop-u5325.png?crc=121696288" alt="" data-heightwidthratio="0.2309090909090909" data-image-width="550" data-image-height="127"/>
-    </div>
-    <a class="nonblock nontext Button gradient rounded-corners shadow clearfix grpelem" id="buttonu5342" href="https://www.google.co.in/" target="_blank" data-visibility="changed" style="visibility:hidden"><!-- container box --><div class="clearfix grpelem" id="u5343-4" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content --><p>Go to this site</p></div></a>
-    <div class="Button rounded-corners clearfix grpelem" id="buttonu5966" data-visibility="changed" style="visibility:hidden"><!-- container box -->
-     <div class="clearfix grpelem" id="u5967-6" data-muse-temp-textContainer-sizePolicy="true" data-muse-temp-textContainer-pinning="true"><!-- content -->
-      <p id="u5967-2">Ravi Bhalla</p>
-      <p id="u5967-4"><span id="u5967-3">Founding Director</span></p>
-     </div>
-     <div class="shadow rounded-corners clip_frame grpelem" id="u5972"><!-- image -->
-      <img class="block" id="u5972_img" src="images/screenshot%20(9)-crop-u5972.jpg?crc=113742664" alt="" data-heightwidthratio="0.8818897637795275" data-image-width="254" data-image-height="224"/>
      </div>
     </div>
    </div>
@@ -501,13 +532,15 @@ var suppressMissingFileError = false
 l[1]:null,l=l&&l[2]?l[2]:null;switch(l.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");f.className+=" "+k;k=a(c(f,"color"));l=a(c(f,"backgroundColor"));k!=0||l!=0?(Muse.assets.required.splice(h,1),"undefined"!=typeof b[i]&&(k!=b[i]>>>24||l!=(b[i]&16777215))&&Muse.assets.outOfDate.push(i)):h++;f.className="version";break;case "js":h++;break;default:throw Error("Unsupported file type: "+l);}}d?d().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 f.parentNode.removeChild(f);if(Muse.assets.outOfDate.length||Muse.assets.required.length)f="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",g&&Muse.assets.outOfDate.length&&(f+="\nOut of date: "+Muse.assets.outOfDate.join(",")),g&&Muse.assets.required.length&&(f+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(f+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(f)):alert(f)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){g(!0)},5E3):g()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musemenu","jquery.musepolyfill.bgsize","webpro"],function(d){var $ = d;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.musemenu","jquery.musepolyfill.bgsize"],function(d){var $ = d;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.resizeHeight('.browser_width');/* resize height */
 Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('#pamphletu8283', ['#bp_infinity'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'mouseover',deactivationEvent:'none',autoPlay:true,displayInterval:2000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:false,shuffle:true,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:2000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu8283 */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#widgetu2815', ['#bp_infinity'], function(elem) { return new WebPro.Widget.Form(elem, {validationEvent:'submit',errorStateSensitivity:'high',fieldWrapperClass:'fld-grp',formSubmittedClass:'frm-sub-st',formErrorClass:'frm-subm-err-st',formDeliveredClass:'frm-subm-ok-st',notEmptyClass:'non-empty-st',focusClass:'focus-st',invalidClass:'fld-err-st',requiredClass:'fld-err-st',ajaxSubmit:true}); });/* #widgetu2815 */
 Muse.Utils.fullPage('#page');/* 100% height page */

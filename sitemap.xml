@@ -2,23 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://PromoteVR.com/index.html</loc>
-    <lastmod>2018-08-04</lastmod>
+    <lastmod>2018-08-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link rel="alternate" media="only screen and (max-width: 370px)" href="http://PromoteVR.com/phone/index.html"/>
     <image:image>
-      <image:loc>http://PromoteVR.com/images/download-crop-u5470.jpg</image:loc>
+      <image:loc>http://PromoteVR.com/images/amit2.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://PromoteVR.com/images/hawa-mahal-5-crop-u8298.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://PromoteVR.com/images/metamathemagical-by-jonathan-zawada-courtesy-of-sydney-opera-house-1-1050x450-crop-u8302.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://PromoteVR.com/images/city-palace-jaipur-crop-u8293.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://PromoteVR.com/images/aaeaaqaaaaaaaavaaaaajgrhzdnhnzdilwm1m2qtngrimi1hytjlltlkzddmzmi1otqyzg-crop-u2674.jpg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://PromoteVR.com/images/amit2.png</image:loc>
-    </image:image>
-    <image:image>
-      <image:loc>http://PromoteVR.com/images/aaeaaqaaaaaaaalwaaaajdy5zjq3ogu4ltfjzmqtnde2ms1izty4ltu2zjbjztgymje3mg-crop-u2690.jpg</image:loc>
+      <image:loc>http://PromoteVR.com/images/download-crop-u5470.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://PromoteVR.com/images/amit2-crop-u5325.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://PromoteVR.com/images/aaeaaqaaaaaaaalwaaaajdy5zjq3ogu4ltfjzmqtnde2ms1izty4ltu2zjbjztgymje3mg-crop-u2690.jpg</image:loc>
     </image:image>
     <image:image>
       <image:loc>http://PromoteVR.com/images/screenshot%20(9)-crop-u5972.jpg</image:loc>
@@ -27,12 +37,6 @@
   <url>
     <loc>http://PromoteVR.com/about-us.html</loc>
     <lastmod>2018-02-24</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://PromoteVR.com/assets/my-movie.mp4</loc>
-    <lastmod>2018-08-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
